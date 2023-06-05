@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  hello_world_job:
+    runs-on: self-hosted
+    # runs-on: ubuntu-latest
+    name: Compile mesa for the Pinenote
+    steps:
+      - name: Docker-based compilation
+        id: compile-mesa-in-docker
+        uses: m-weigand/pinenote_debian_mesa@main
+      - name: Upload files
+        uses: actions/upload-artifact@v3
+        with:
+          name: mesa_arm64_pinenote
+          path: ${{ runner.temp }}/_github_home/mesa_arm64_debs

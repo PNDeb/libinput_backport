@@ -1,0 +1,6 @@
+# action.yml
+name: 'Pinenote libinput 1.23 backport for Bookworm
+description: 'Compile and package libinput for Debian on the Pine64 Pinenote'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

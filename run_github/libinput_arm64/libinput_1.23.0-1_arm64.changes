@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Wed, 31 May 2023 17:46:49 +0200
+Source: libinput
+Binary: libinput-bin libinput-bin-dbgsym libinput-dev libinput-tools libinput-tools-dbgsym libinput10 libinput10-dbgsym libinput10-udeb
+Architecture: source arm64
+Version: 1.23.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: Marius Gripsgard <marius@ubports.com>
+Description:
+ libinput-bin - input device management and event handling library - udev quirks
+ libinput-dev - input device management and event handling library - development
+ libinput-tools - input device management and event handling library - command line
+ libinput10 - input device management and event handling library - shared libra
+ libinput10-udeb - input device management and event handling library - shared libra (udeb)
+Changes:
+ libinput (1.23.0-1) unstable; urgency=medium
+ .
+   * New upstream release v1.23.0
+   * Update symbols to match upstream release
+Checksums-Sha1:
+ d225fd4c443907b7aabe38fd6e4854c34a044dab 1553 libinput_1.23.0-1.dsc
+ e7d99e3fc44937d103ec572827913a153ed3a5bd 1003796 libinput_1.23.0.orig.tar.gz
+ 3c2b43a5616e25a80e57a1467f891569f92e4f78 10724 libinput_1.23.0-1.debian.tar.xz
+ 723af3b25e2bd59a0e8eb83ec28929a748479dd3 29064 libinput-bin-dbgsym_1.23.0-1_arm64.deb
+ ecf79e6a9e9af3007c945f9e3bf7d189a9223ea4 23524 libinput-bin_1.23.0-1_arm64.deb
+ 1022f8f83707e1e6f3c30f72872830f5c9252127 33772 libinput-dev_1.23.0-1_arm64.deb
+ 4d82f1d4ea11d5d2f99807bda41394f881c9a92c 665476 libinput-tools-dbgsym_1.23.0-1_arm64.deb
+ 91ddde295118f0545212bdbc3f06d7c34214b189 134108 libinput-tools_1.23.0-1_arm64.deb
+ 946ae9dd86ab4504e09ce0f1d41045269bdb2053 484364 libinput10-dbgsym_1.23.0-1_arm64.deb
+ edc7a1ec8221a669512acc8ed67606a03ae7b335 119484 libinput10-udeb_1.23.0-1_arm64.udeb
+ e5e782c135a3888ba8cd321b0e21440a3762f5c8 113492 libinput10_1.23.0-1_arm64.deb
+ f68b5ab3a0234c45a2477896062cc4f463283f04 15136 libinput_1.23.0-1_arm64.buildinfo
+Checksums-Sha256:
+ 50208802e5de62adbe1c811b3a93b4dd4e8bfe703fec8f6cfa552849d80b687d 1553 libinput_1.23.0-1.dsc
+ 7a7c90fbc59f1f65c781a51fa634e4f79e460bf6e16ad68afbe7965d25d09738 1003796 libinput_1.23.0.orig.tar.gz
+ f0b6ef4573aad433ce80d33d665bc6603052a9c21e30b31096df47250dd5feca 10724 libinput_1.23.0-1.debian.tar.xz
+ 9a952f617a7cc9a281362ea96dbaca69218b6beb50ec7ffd4b1222808d225417 29064 libinput-bin-dbgsym_1.23.0-1_arm64.deb
+ 6442005db595545021bfa9e4d313ee190dc8f6f9bfa7c0d29cc32c3d18e90bf7 23524 libinput-bin_1.23.0-1_arm64.deb
+ edf182e051e22b95d6e5b179137085ba2eccb0a63eefe6122071b6982759b71c 33772 libinput-dev_1.23.0-1_arm64.deb
+ 6b2e1f83fc5e70c245f5a28cec7a74ae3d2eedd9cfd2e095b7ff0f9039809320 665476 libinput-tools-dbgsym_1.23.0-1_arm64.deb
+ 373e9aeb11bf1cca79eb7aa929b87eef0d93a64f1ce3ae13bbf23b3e315b56bf 134108 libinput-tools_1.23.0-1_arm64.deb
+ 7f479f60ffe55931586840d4a54175f1bc248a1df31a236998d81aca72fac7df 484364 libinput10-dbgsym_1.23.0-1_arm64.deb
+ 146d981b5616b3e54efc8fa0751889f0e9260792ea58af7e3708cf8b2586a9ae 119484 libinput10-udeb_1.23.0-1_arm64.udeb
+ 80ce213acd8cf64d33fe25d8fd37b9e456a626d8d183fadabd96513008b7c37f 113492 libinput10_1.23.0-1_arm64.deb
+ f0a6f914600e04bf7b363c74e01be3583f9d415b758406f4f03097b0e202f370 15136 libinput_1.23.0-1_arm64.buildinfo
+Files:
+ 9b64bb2f8ff091d686f798aef56973f5 1553 libs optional libinput_1.23.0-1.dsc
+ 1faafdbe54745b5b59305b0764155a15 1003796 libs optional libinput_1.23.0.orig.tar.gz
+ 8e4164f91a68762ce170b8e2f975d71a 10724 libs optional libinput_1.23.0-1.debian.tar.xz
+ d573f1403ca91ec7885029cf7cb998c8 29064 debug optional libinput-bin-dbgsym_1.23.0-1_arm64.deb
+ acf99e817a2853a363b4d3d1b7e5fa48 23524 libs optional libinput-bin_1.23.0-1_arm64.deb
+ 6cf9665cf8bff206af303c260ea59fa6 33772 libdevel optional libinput-dev_1.23.0-1_arm64.deb
+ f001096a4945d9bcd91ce049cc5389d3 665476 debug optional libinput-tools-dbgsym_1.23.0-1_arm64.deb
+ f33c39fb5fc5ceaaa39c0ec7a1dd5550 134108 libdevel optional libinput-tools_1.23.0-1_arm64.deb
+ 19bf3098d6fc63c862710719dcf6900f 484364 debug optional libinput10-dbgsym_1.23.0-1_arm64.deb
+ 82a801b1ef20da4a7ac88dc4f245611c 119484 debian-installer optional libinput10-udeb_1.23.0-1_arm64.udeb
+ 32387243372f443d831739790717e0b4 113492 libs optional libinput10_1.23.0-1_arm64.deb
+ f2057f5f5af5755426649d43ef77b110 15136 libs optional libinput_1.23.0-1_arm64.buildinfo
